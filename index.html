@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>J Christy Kiruba | Portfolio</title>
+<meta name="description" content="Portfolio of J Christy Kiruba, a student developer from Coimbatore working with C, Python and JavaScript.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">JCK</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#certs">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button id="theme" aria-label="Toggle dark mode">Theme</button>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <p class="hello">Hi, I'm</p>
+    <h1>J Christy Kiruba</h1>
+    <p class="role">I'm a student developer from Coimbatore, learning to build for the web.</p>
+    <p class="typed" aria-live="polite">I work with <span id="typed"></span><span class="caret"></span></p>
+    <div class="cta">
+      <a class="btn primary" href="#certs">See my certifications</a>
+      <a class="btn" href="#contact">Get in touch</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I want to build strong programming and web development skills, get practical experience, and grow into a career in technology. I'm studying and earning certifications alongside my coursework, from Python and C to Java, Azure and MongoDB.</p>
+    <p>Languages I speak: Tamil and English.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li><strong>C</strong><span>Completed C Programming with DSA Foundation</span></li>
+      <li><strong>Python</strong><span>Completed Programming in Python</span></li>
+      <li><strong>JavaScript</strong><span>Building this site with it</span></li>
+    </ul>
+  </section>
+
+  <section id="certs">
+    <h2>Certifications and courses</h2>
+    <div class="filters" role="group" aria-label="Filter by provider"></div>
+    <ul id="certList" class="certs"></ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>The best way to reach me is email.</p>
+    <a class="btn primary" href="mailto:christykiruba1411@gmail.com">christykiruba1411@gmail.com</a>
+    <p class="small">Based in Coimbatore, Tamil Nadu.</p>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> J Christy Kiruba</footer>
+<script src="script.js"></script>
+</body>
+</html>
